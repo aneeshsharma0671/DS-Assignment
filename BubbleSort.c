@@ -1,14 +1,24 @@
+/*
+Name- Aneesh sharma
+branch- IT 
+Roll no. - 11912055
+file created on - !7th May 
+*/
+
 #include<stdio.h>
 #include<time.h>
-void swap(int *a,int *b){
+void swap(int *a,int *b)
+{
     int temp;
     temp=*a;
     *a=*b;
     *b=temp;
 }
 
-void bubble(int arr[],int upper){
-    for (int i = 0; i < upper-1; i++)
+void bubble(int arr[],int upper)
+{
+    
+for (int i = 0; i < upper-1; i++)
     {
         for (int j = 0; j < upper-i-1; j++)
             if(arr[j]>arr[j+1]){
@@ -17,7 +27,9 @@ void bubble(int arr[],int upper){
     }
 }
 
-int main(){
+
+int main()
+{
     int arr[1000];
     for (int p = 1000; p < 0; p--)
     {
